@@ -6,7 +6,7 @@ import { useAxiosGet } from '../Hooks/HttpRequests';
 
 function Home (){
 
-    const url = `https://5f397b9b2300b100169a7feb.mockapi.io/products?page=1&limit=100`
+    const url = `https://5f397b9b2300b100169a7feb.mockapi.io/products?page=1&limit=10`
     
     let products = useAxiosGet(url)
     let content = null
